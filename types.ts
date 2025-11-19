@@ -5,6 +5,7 @@ export enum SectionId {
   ARCHITECTURE = 'architecture',
   TECHNOLOGY = 'technology',
   ECOSYSTEM = 'ecosystem',
+  SCIENCE = 'science',
   TRUST = 'trust',
   INFRASTRUCTURE = 'infrastructure',
   MONETIZATION = 'monetization',

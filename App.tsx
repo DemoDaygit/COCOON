@@ -4,6 +4,7 @@ import { IntroView } from './components/Views/IntroView';
 import { ArchitectureView } from './components/Views/ArchitectureView';
 import { TechnologyView } from './components/Views/TechnologyView';
 import { EcosystemView } from './components/Views/EcosystemView';
+import { ScienceView } from './components/Views/ScienceView';
 import { TrustView } from './components/Views/TrustView';
 import { InfrastructureView } from './components/Views/InfrastructureView';
 import { TokenomicsView } from './components/Views/TokenomicsView';
@@ -26,6 +27,8 @@ const AppContent: React.FC = () => {
         return <TechnologyView />;
       case SectionId.ECOSYSTEM:
         return <EcosystemView />;
+      case SectionId.SCIENCE:
+        return <ScienceView />;
       case SectionId.TRUST:
         return <TrustView />;
       case SectionId.INFRASTRUCTURE:

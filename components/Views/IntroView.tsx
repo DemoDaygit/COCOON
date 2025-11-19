@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { ArrowRight, TrendingUp, ShieldX, Unlock } from 'lucide-react';
+import { ArrowRight, TrendingUp, ShieldX, Unlock, Building2, Banknote, Lock, Zap } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 
 interface IntroViewProps {
@@ -22,7 +23,7 @@ export const IntroView: React.FC<IntroViewProps> = ({ onStart }) => {
       {/* Glowing Orb */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none"></div>
 
-      <div className="z-10 max-w-5xl w-full">
+      <div className="z-10 max-w-5xl w-full pt-20 pb-12">
         <div className="inline-flex items-center px-3 py-1 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 text-xs font-mono mb-6">
           <span className="w-2 h-2 bg-cyan-400 rounded-full mr-2 animate-pulse"></span>
           {t.intro.tag}
@@ -73,6 +74,39 @@ export const IntroView: React.FC<IntroViewProps> = ({ onStart }) => {
               {t.intro.marketDesc}
             </p>
           </div>
+        </div>
+
+        {/* Strategic Business Value Block */}
+        <div className="mb-12 pt-8 border-t border-cyber-700">
+           <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+             <Building2 className="text-purple-400"/> {t.intro.bizTitle}
+           </h2>
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              
+              <div className="p-4 rounded-lg bg-purple-900/10 border border-purple-500/20 hover:bg-purple-900/20 transition-colors">
+                 <div className="flex items-center gap-3 mb-3">
+                    <Zap size={20} className="text-purple-400" />
+                    <h4 className="text-white font-bold text-sm">{t.intro.biz1Title}</h4>
+                 </div>
+                 <p className="text-xs text-slate-400 leading-relaxed">{t.intro.biz1Desc}</p>
+              </div>
+
+              <div className="p-4 rounded-lg bg-blue-900/10 border border-blue-500/20 hover:bg-blue-900/20 transition-colors">
+                 <div className="flex items-center gap-3 mb-3">
+                    <Lock size={20} className="text-blue-400" />
+                    <h4 className="text-white font-bold text-sm">{t.intro.biz2Title}</h4>
+                 </div>
+                 <p className="text-xs text-slate-400 leading-relaxed">{t.intro.biz2Desc}</p>
+              </div>
+
+              <div className="p-4 rounded-lg bg-green-900/10 border border-green-500/20 hover:bg-green-900/20 transition-colors">
+                 <div className="flex items-center gap-3 mb-3">
+                    <Banknote size={20} className="text-green-400" />
+                    <h4 className="text-white font-bold text-sm">{t.intro.biz3Title}</h4>
+                 </div>
+                 <p className="text-xs text-slate-400 leading-relaxed">{t.intro.biz3Desc}</p>
+              </div>
+           </div>
         </div>
 
         <button 

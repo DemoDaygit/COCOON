@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, Zap, Layers, GitMerge, Database, Code, Network } from 'lucide-react';
+import { Cpu, Zap, Layers, Database, Settings, HardDrive, MemoryStick } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 
 export const TechnologyView: React.FC = () => {
@@ -15,6 +15,67 @@ export const TechnologyView: React.FC = () => {
         <p className="text-slate-400">
           {t.technology.desc}
         </p>
+      </div>
+
+      {/* Hardware & Model Specs Block */}
+      <div className="glass-panel p-6 rounded-xl border border-cyan-500/40 mb-8 bg-cyber-900/50">
+        <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <Settings size={20} className="text-cyan-400"/> {t.technology.reqTitle}
+        </h3>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Hardware Requirements */}
+            <div className="bg-cyber-800 p-4 rounded-lg border border-cyber-600">
+                <div className="flex items-center gap-2 mb-4 text-cyan-400">
+                    <HardDrive size={18} />
+                    <h4 className="font-bold uppercase text-sm">{t.technology.hwTitle}</h4>
+                </div>
+                <div className="space-y-4">
+                    <div className="flex justify-between items-center border-b border-cyber-700 pb-2">
+                        <span className="text-sm text-slate-300">Consumer Grade (Tier 2)</span>
+                        <span className="text-xs font-mono text-yellow-400">RTX 3090 / 4090 (24GB)</span>
+                    </div>
+                    <div className="flex justify-between items-center border-b border-cyber-700 pb-2">
+                        <span className="text-sm text-slate-300">Enterprise (Tier 1)</span>
+                        <span className="text-xs font-mono text-green-400">A100 / H100 (80GB)</span>
+                    </div>
+                    <div className="flex justify-between items-center border-b border-cyber-700 pb-2">
+                        <span className="text-sm text-slate-300">RAM (System)</span>
+                        <span className="text-xs font-mono text-slate-400">Min: 64GB DDR5</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                        <span className="text-sm text-slate-300">Bandwidth</span>
+                        <span className="text-xs font-mono text-slate-400">PCIe 4.0 x16</span>
+                    </div>
+                </div>
+            </div>
+
+            {/* Model Specifications */}
+            <div className="bg-cyber-800 p-4 rounded-lg border border-cyber-600">
+                <div className="flex items-center gap-2 mb-4 text-purple-400">
+                    <MemoryStick size={18} />
+                    <h4 className="font-bold uppercase text-sm">{t.technology.modelTitle}</h4>
+                </div>
+                 <div className="space-y-4">
+                    <div className="flex justify-between items-center border-b border-cyber-700 pb-2">
+                        <span className="text-sm text-slate-300">Base Model (Draft)</span>
+                        <span className="text-xs font-mono text-blue-300">Llama-3-8B-Instruct</span>
+                    </div>
+                    <div className="flex justify-between items-center border-b border-cyber-700 pb-2">
+                        <span className="text-sm text-slate-300">Main Model (Verify)</span>
+                        <span className="text-xs font-mono text-purple-300">Llama-3-70B-GGUF (Q4_K_M)</span>
+                    </div>
+                    <div className="flex justify-between items-center border-b border-cyber-700 pb-2">
+                        <span className="text-sm text-slate-300">Context Window</span>
+                        <span className="text-xs font-mono text-slate-400">8192 Tokens</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                        <span className="text-sm text-slate-300">Format</span>
+                        <span className="text-xs font-mono text-slate-400">SafeTensors / GGUF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -130,21 +191,6 @@ export const TechnologyView: React.FC = () => {
                   <span className="px-2 py-1 rounded bg-slate-800 text-slate-300 text-xs border border-slate-600">InfiniBand</span>
                </div>
             </div>
-         </div>
-      </div>
-
-      {/* Papers */}
-      <div className="mt-8">
-         <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4">{t.technology.papers}</h4>
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="#" className="block p-4 rounded border border-cyber-700 hover:bg-cyber-800 hover:border-slate-500 transition-colors group">
-               <div className="text-xs text-cyan-500 mb-1 font-mono">ArXiv:2406.xxxx (2024)</div>
-               <div className="text-sm font-bold text-slate-300 group-hover:text-white">Mixture-of-Agents Enhances Large Language Model Capabilities</div>
-            </a>
-            <a href="#" className="block p-4 rounded border border-cyber-700 hover:bg-cyber-800 hover:border-slate-500 transition-colors group">
-               <div className="text-xs text-cyan-500 mb-1 font-mono">ICML 2023 / 2024</div>
-               <div className="text-sm font-bold text-slate-300 group-hover:text-white">Speculative Sampling: Accelerating Generation</div>
-            </a>
          </div>
       </div>
     </div>

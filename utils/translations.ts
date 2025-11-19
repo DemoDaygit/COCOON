@@ -5,7 +5,8 @@ export const translations = {
       intro: 'Vision',
       architecture: 'The Brain',
       technology: 'Deep Tech',
-      ecosystem: 'Ecosystem & Research',
+      ecosystem: 'Ecosystem',
+      science: 'Science Base',
       trust: 'Protocol Layer',
       infrastructure: 'The Muscle',
       monetization: 'Financial Model',
@@ -18,16 +19,23 @@ export const translations = {
       lat: 'LAT'
     },
     intro: {
-      tag: 'INVESTMENT MEMORANDUM V2.4',
+      tag: 'INVESTMENT MEMORANDUM V3.0',
       title: 'ARG H.I.V.E. Protocol',
-      desc: '<strong>A</strong>ugmented <strong>R</strong>easoning <strong>G</strong>rid & <strong>H</strong>eterogeneous <strong>I</strong>nference <strong>V</strong>ector <strong>E</strong>ngine.<br/><br/>The Cross-Chain Infrastructure Layer for Swarm AI, connecting any blockchain to verifiable, low-cost compute.',
-      problemTitle: 'The Problem',
-      problemDesc: 'Blockchains cannot run AI. Centralized clouds (AWS) are censored and expensive. Monolithic LLMs are hitting diminishing returns.',
-      solutionTitle: 'The Solution',
-      solutionDesc: 'A "Mixture of Agents" Network. We cryptographically verify off-chain GPU work and settle results on-chain for 1/10th the cost of AWS.',
-      marketTitle: 'The Opportunity',
-      marketDesc: 'The "DePIN" (Decentralized Physical Infrastructure) market is projected to hit $3.5 Trillion. We are the compute layer for Web3.',
-      btn: 'Initialize ARG Swarm'
+      desc: '<strong>A</strong>ugmented <strong>R</strong>easoning <strong>G</strong>rid & <strong>H</strong>eterogeneous <strong>I</strong>nference <strong>V</strong>ector <strong>E</strong>ngine.<br/><br/>The Sovereign Compute Layer for the AGI Era. Solving the "AI Trilemma" for Global Business.',
+      problemTitle: 'The Business Crisis',
+      problemDesc: 'Corporations face a triple threat: Exploding Cloud Costs, Data Sovereignty Risks (Sanctions/Espionage), and Vendor Lock-in to OpenAI/Google.',
+      solutionTitle: 'The Sovereign Solution',
+      solutionDesc: 'A Decentralized "Mixture of Agents" Network. We offer <strong>Uncensorable, Private, and Ultra-Low Cost</strong> intelligence by utilizing dormant global GPU compute.',
+      marketTitle: 'The $3.5T Opportunity',
+      marketDesc: 'DePIN (Decentralized Physical Infrastructure) is the next crypto super-cycle. ARG H.I.V.E. provides the essential utility token for AI inference.',
+      btn: 'Initialize ARG Swarm',
+      bizTitle: 'Strategic Business Value (B2B)',
+      biz1Title: 'Eliminate Vendor Lock-in',
+      biz1Desc: 'Unified API for Llama-3, Mistral, Qwen. Switch models instantly based on price/performance. Zero dependency on US Tech Giants.',
+      biz2Title: 'Total Data Sovereignty',
+      biz2Desc: 'Process sensitive banking/gov data inside local TEE Enclaves or On-Premise nodes. 100% GDPR & Local Law compliant.',
+      biz3Title: '80% OpEx Reduction',
+      biz3Desc: 'Leverage the "Spot Market" for compute. Why pay AWS margins when you can rent idle H100s from verified miners?'
     },
     architecture: {
       title: 'The Brain: Swarm Intelligence',
@@ -60,6 +68,9 @@ export const translations = {
     technology: {
       title: 'Deep Tech Specification',
       desc: 'Implementation details based on 2025 state-of-the-art inference optimization.',
+      reqTitle: 'Node Qualifications',
+      hwTitle: 'Hardware Specs',
+      modelTitle: 'Model Compatibility',
       specTitle: 'Speculative Decoding',
       specDesc: 'We decouple the "Draft" phase from the "Verify" phase. A small "Draft Model" (Llama-3-8B) predicts the next 5 tokens instantly. The "Verifier Model" (Llama-3-70B) validates them in a single parallel pass.',
       specNote: 'Result: 3x Speedup vs standard generation without quality loss.',
@@ -71,8 +82,8 @@ export const translations = {
       papers: 'Scientific Basis (2024-2025)'
     },
     ecosystem: {
-      title: 'Ecosystem & Research',
-      desc: 'Value proposition for all market participants and the scientific foundation of the protocol.',
+      title: 'Ecosystem Participants',
+      desc: 'Value proposition for all market stakeholders in the protocol.',
       partTitle: 'Block A: Protocol Participants',
       devTitle: 'Developers & Startups',
       dev1: 'Zero-config OpenAI-compatible API.',
@@ -88,8 +99,12 @@ export const translations = {
       ent3: 'ZK-Logging: Audit trails without data leakage.',
       resTitle: 'Research Partners',
       res1: 'Grant funding for specialized LoRA adapters.',
-      res2: 'Access to global distributed training datasets.',
-      sciTitle: 'Block B: Scientific Foundation',
+      res2: 'Access to global distributed training datasets.'
+    },
+    science: {
+      title: 'Scientific Foundation',
+      desc: 'Academic research and whitepapers supporting the protocol implementation.',
+      sciTitle: 'Block B: Research Base (2024-2025)',
       sciDesc: 'ARG H.I.V.E. is not just software; it is an implementation of cutting-edge research in distributed systems and collaborative AI.',
       paper1Title: 'Collaborative Intelligence in Heterogeneous Swarms',
       paper1Abst: 'Validates the "Mixture of Agents" approach, proving that 3 small models (7B) communicating via vector context can outperform one large model (GPT-4) in reasoning tasks while using 40% less energy.',
@@ -190,42 +205,62 @@ export const translations = {
       engine3Desc: '20% of all protocol revenue is used to permanently burn tokens, constantly increasing scarcity.'
     },
     roadmap: {
-      title: 'Go-to-Market Strategy',
-      desc: 'Scaling from tech prototype to market dominance.',
-      p1Title: 'The Telegram Swarm',
-      p1Time: 'Months 1-3',
-      p1Items: ['Launch Telegram Mini-App (TMA) as Swarm Interface', 'TON Blockchain Integration for User Auth', 'Direct Access to 900M Users', 'MVP Deployment on TON Testnet'],
-      p2Title: 'Growth & Liquidity',
-      p2Time: 'Months 4-9',
-      p2Items: ['Mining Retrofit Partner Program', 'B2B Pilot with 3 Local Enterprises', 'Token Listing (DEX)', 'Developer SDK Release'],
-      p3Title: 'Scale & Sovereignty',
-      p3Time: 'Months 10-18',
-      p3Items: ['DAO Transition', 'Enterprise SLA Contracts', 'International Expansion (BRICS)', 'Proprietary ASIC R&D'],
-      inProgress: 'EXECUTING'
+      title: '5-Year Strategic Roadmap',
+      desc: 'From MVP to Global Artificial General Intelligence (AGI) Network.',
+      p1Title: 'Genesis (Phase 1)',
+      p1Time: 'Q4 2025',
+      p1Items: ['Launch "Irkutsk-1" H100 Cluster', 'Telegram Mini App Alpha', 'Core "Swarm" Protocol MVP', 'First Enterprise Pilot'],
+      p2Title: 'Expansion (Phase 2)',
+      p2Time: '2026',
+      p2Items: ['TGE (Token Launch) & Listings', '100+ Verified Mining Nodes', 'B2B API Public Launch', 'Cross-Chain Bridges (SOL/ETH)'],
+      p3Title: 'Sovereignty (Phase 3)',
+      p3Time: '2027-2028',
+      p3Items: ['ARG Custom ASIC R&D', 'Satellite Mesh Interlink', 'Neural OS (Dedicated Linux Distro)', 'Global DAO Governance'],
+      p4Title: 'Singularity (Phase 4)',
+      p4Time: '2029-2030',
+      p4Items: ['AGI Swarm Capability', '1 Million+ Node Network', 'Universal Basic Compute (UBC)', 'Interplanetary Node Test'],
+      inProgress: 'NEXT STEP',
+      deliverable: 'Strategic Goal'
     },
     risks: {
-      title: 'Risk Management',
-      desc: 'Turning market threats into defensive moats.',
-      r1Title: 'Regulatory Ban',
-      r1Prob: 'Medium',
-      r1Imp: 'High',
-      r1Mit: 'Decentralized jurisdiction. No HQ to shut down. Traffic obfuscation.',
-      r2Title: 'Hardware Embargo',
-      r2Prob: 'High',
-      r2Imp: 'Critical',
-      r2Mit: 'Existing "Mining" supply chain. Retrofitting gaming GPUs. Sourcing from neutral regions.',
-      r3Title: 'Connectivity Loss',
-      r3Prob: 'Low',
-      r3Imp: 'High',
-      r3Mit: 'Domestic "Cheburnet" readiness via local fiber. Radio mesh for critical signaling.',
-      mitStrat: 'DEFENSE STRATEGY',
+      title: 'Strategic Risk Matrix',
+      desc: 'Comprehensive analysis of threats and mitigation strategies (2x2 Framework).',
+      mitStrat: 'MITIGATION STRATEGY',
       whyTitle: 'The Investment Thesis',
-      w1Title: 'Unit Economics',
-      w1Desc: 'We spend $0.02 where competitors spend $0.15. We win on margin.',
-      w2Title: 'Unmet Demand',
-      w2Desc: 'Huge demand for uncensored, private AI in regulated industries.',
-      w3Title: 'Distribution',
-      w3Desc: 'Frictionless onboarding for 900M users via Telegram.'
+      w1Title: 'Margin',
+      w1Desc: 'Arbitrage between cheap Siberian energy and high Global AI demand.',
+      w2Title: 'Timing',
+      w2Desc: 'Entering the market exactly when centralized AI hits the "Data Wall".',
+      w3Title: 'Defense',
+      w3Desc: 'Hardware-backed moat that software-only wrappers cannot copy.',
+      matrix: {
+         op: 'Operational',
+         tech: 'Technical',
+         fin: 'Financial',
+         reg: 'Regulatory',
+         prob: 'Prob',
+         imp: 'Impact'
+      },
+      r1: {
+         title: 'Hardware Embargo / Sanctions',
+         desc: 'Inability to source new H100s due to geopolitical restrictions.',
+         mitigation: 'Diversified supply chain via neutral hubs. "Mining Farm Retrofit" program to utilize consumer gaming GPUs (RTX 4090) which are unrestricted.'
+      },
+      r2: {
+         title: 'Adversarial Attacks / Poisoning',
+         desc: 'Malicious nodes returning false AI results to sabotage the network.',
+         mitigation: 'Zero-Trust Architecture. Every task is cross-verified by 2 "Critic" nodes. Staked assets are slashed (burned) instantly upon fraud detection.'
+      },
+      r3: {
+         title: 'Crypto Volatility',
+         desc: 'Token price crash affects miner profitability.',
+         mitigation: 'Dual-Treasury System. B2B contracts are settled in Stablecoins (USDT) to guarantee OpEx coverage for miners, regardless of ARG token price.'
+      },
+      r4: {
+         title: 'Regulatory Crackdown (AI Safety)',
+         desc: 'Governments banning "Uncensored" AI models.',
+         mitigation: 'Pure Decentralization. The protocol has no "Off" switch. Traffic is obfuscated via TLS 1.3 and Mesh Routing, making it indistinguishable from regular web traffic.'
+      }
     }
   },
   ru: {
@@ -234,6 +269,7 @@ export const translations = {
       architecture: 'Мозг',
       technology: 'Deep Tech',
       ecosystem: 'Экосистема',
+      science: 'Научная База',
       trust: 'Протокол',
       infrastructure: 'Мощности',
       monetization: 'Фин. Модель',
@@ -246,16 +282,23 @@ export const translations = {
       lat: 'ПИНГ'
     },
     intro: {
-      tag: 'ИНВЕСТИЦИОННЫЙ МЕМОРАНДУМ V2.4',
+      tag: 'ИНВЕСТИЦИОННЫЙ МЕМОРАНДУМ V3.0',
       title: 'Протокол ARG H.I.V.E.',
-      desc: '<strong>A</strong>ugmented <strong>R</strong>easoning <strong>G</strong>rid & <strong>H</strong>eterogeneous <strong>I</strong>nference <strong>V</strong>ector <strong>E</strong>ngine.<br/><br/>Инфраструктурный слой для Роевого ИИ (ARG), дающий любому блокчейну доступ к дешевым вычислениям.',
-      problemTitle: 'Проблема',
-      problemDesc: 'Блокчейны не могут запускать ИИ. Облака (AWS) централизованы и дороги. Монолитные LLM упираются в потолок развития.',
-      solutionTitle: 'Решение',
-      solutionDesc: 'Сеть "Mixture of Agents". Мы криптографически подтверждаем работу GPU офчейн и фиксируем результат в блокчейне в 10 раз дешевле AWS.',
-      marketTitle: 'Возможность',
-      marketDesc: 'Рынок DePIN (Децентрализованная Физ. Инфраструктура) достигнет $3.5 Трлн. Мы — вычислительный слой Web3.',
-      btn: 'Инициализация Роя ARG'
+      desc: '<strong>A</strong>ugmented <strong>R</strong>easoning <strong>G</strong>rid & <strong>H</strong>eterogeneous <strong>I</strong>nference <strong>V</strong>ector <strong>E</strong>ngine.<br/><br/>Суверенный вычислительный слой эры AGI. Решение "Трилеммы ИИ" для глобального бизнеса.',
+      problemTitle: 'Кризис Бизнеса',
+      problemDesc: 'Корпорации зажаты в тиски: Рост цен на облака, Риски санкций и утечек данных, Зависимость от OpenAI/Google.',
+      solutionTitle: 'Суверенное Решение',
+      solutionDesc: 'Децентрализованная сеть "Mixture of Agents". Мы предлагаем <strong>Нецензурируемый, Приватный и Дешевый</strong> интеллект, используя свободные GPU мощности.',
+      marketTitle: 'Рынок на $3.5 Трлн',
+      marketDesc: 'DePIN (Децентрализованная Физ. Инфраструктура) — следующий супер-цикл крипты. ARG H.I.V.E. — это "газ" для ИИ.',
+      btn: 'Инициализация Роя ARG',
+      bizTitle: 'Стратегическая Ценность (B2B)',
+      biz1Title: 'Устранение Вендор-лока',
+      biz1Desc: 'Единый API для Llama-3, Mistral, Qwen. Меняйте модели мгновенно по цене/качеству. Никакой зависимости от техногигантов.',
+      biz2Title: 'Полный Цифровой Суверенитет',
+      biz2Desc: 'Обработка банковских и гос. данных внутри локальных анклавов (TEE) или On-Premise нод. 100% соответствие 152-ФЗ и GDPR.',
+      biz3Title: 'Снижение OpEx на 80%',
+      biz3Desc: 'Используйте "Спотовый Рынок" вычислений. Зачем платить маржу AWS, если можно арендовать H100 у проверенных майнеров?'
     },
     architecture: {
       title: 'The Brain: Роевой Интеллект',
@@ -288,6 +331,9 @@ export const translations = {
     technology: {
       title: 'Deep Tech Спецификация',
       desc: 'Детали реализации на основе алгоритмов оптимизации инференса 2025 года.',
+      reqTitle: 'Квалификация Ноды',
+      hwTitle: 'Требования к Железу',
+      modelTitle: 'Совместимость Моделей',
       specTitle: 'Спекулятивное Декодирование',
       specDesc: 'Мы разделяем фазу "Черновика" и "Проверки". Малая модель (Draft, Llama-3-8B) предсказывает 5 токенов мгновенно. Большая модель (Verifier, 70B) проверяет их за один параллельный проход.',
       specNote: 'Результат: Ускорение в 3x раза по сравнению со стандартным инференсом без потери качества.',
@@ -299,8 +345,8 @@ export const translations = {
       papers: 'Научная База (2024-2025)'
     },
     ecosystem: {
-      title: 'Экосистема и Наука',
-      desc: 'Возможности для участников рынка и научное обоснование реализации протокола.',
+      title: 'Экосистема Рынка',
+      desc: 'Возможности для всех участников протокола.',
       partTitle: 'Блок А: Участники Протокола',
       devTitle: 'Разработчики (Startups)',
       dev1: 'API, совместимый с OpenAI (Zero-config).',
@@ -316,7 +362,11 @@ export const translations = {
       ent3: 'ZK-Logging: Аудит действий ИИ без утечки данных.',
       resTitle: 'Научное Сообщество',
       res1: 'Гранты на обучение LoRA-адаптеров.',
-      res2: 'Доступ к распределенным датасетам для обучения.',
+      res2: 'Доступ к распределенным датасетам для обучения.'
+    },
+    science: {
+      title: 'Научный Фундамент',
+      desc: 'Академическая база и whitepapers, лежащие в основе протокола.',
       sciTitle: 'Блок Б: Научная База (2024-2025)',
       sciDesc: 'ARG H.I.V.E. — это не просто софт, это реализация передовых исследований в области распределенных систем и коллаборативного ИИ.',
       paper1Title: 'Коллективный интеллект в гетерогенных роях',
@@ -418,42 +468,62 @@ export const translations = {
       engine3Desc: '20% всей выручки протокола направляется на вечное сжигание токенов, создавая постоянный дефицит.'
     },
     roadmap: {
-      title: 'Стратегия Выхода на Рынок (GTM)',
-      desc: 'Масштабирование от прототипа до рыночной доминации.',
-      p1Title: 'Рой в Telegram (TON)',
-      p1Time: 'Месяцы 1-3',
-      p1Items: ['Запуск Telegram Mini-App (TMA) как интерфейса Роя', 'Интеграция блокчейна TON для авторизации', 'Прямой доступ к 900 млн пользователей', 'Деплой MVP в тестнет TON'],
-      p2Title: 'Рост и Ликвидность',
-      p2Time: 'Месяцы 4-9',
-      p2Items: ['Программа Ретрофита Майнеров', 'Пилот с 3 крупными заказчиками (РФ)', 'Листинг Токена (DEX)', 'Релиз SDK для разработчиков'],
-      p3Title: 'Масштаб и Суверенитет',
-      p3Time: 'Месяцы 10-18',
-      p3Items: ['Переход к DAO', 'Enterprise SLA контракты', 'Экспансия в БРИКС', 'R&D собственных ASIC'],
-      inProgress: 'В РАБОТЕ'
+      title: '5-Летняя Стратегия',
+      desc: 'От запуска MVP до Глобальной Сети Универсального Интеллекта (AGI).',
+      p1Title: 'Генезис (Фаза 1)',
+      p1Time: 'Q4 2025',
+      p1Items: ['Запуск кластера "Irkutsk-1" H100', 'Альфа-версия Telegram Mini App', 'MVP Протокола "Роя"', 'Первый Корпоративный Пилот'],
+      p2Title: 'Экспансия (Фаза 2)',
+      p2Time: '2026',
+      p2Items: ['TGE (Листинг Токена)', '100+ Верифицированных Нод', 'Публичный B2B API', 'Кросс-чейн мосты (SOL/ETH)'],
+      p3Title: 'Суверенитет (Фаза 3)',
+      p3Time: '2027-2028',
+      p3Items: ['Разработка ARG ASIC Чипов', 'Спутниковый Mesh-интерлинк', 'Neural OS (Своя ОС)', 'Глобальное DAO Управление'],
+      p4Title: 'Сингулярность (Фаза 4)',
+      p4Time: '2029-2030',
+      p4Items: ['Рой уровня AGI', 'Сеть из 1 млн Нод', 'Безусловный Вычислительный Доход (UBC)', 'Тест Межпланетной Ноды'],
+      inProgress: 'СЛЕДУЮЩИЙ ШАГ',
+      deliverable: 'Стратегическая Цель'
     },
     risks: {
-      title: 'Управление Рисками',
-      desc: 'Превращаем угрозы рынка в защитные рвы бизнеса.',
-      r1Title: 'Регуляторный Запрет',
-      r1Prob: 'Средняя',
-      r1Imp: 'Высокая',
-      r1Mit: 'Децентрализованная юрисдикция. Нет офиса, который можно закрыть. Обфускация трафика.',
-      r2Title: 'Эмбарго на Железо',
-      r2Prob: 'Высокая',
-      r2Imp: 'Крит.',
-      r2Mit: 'Использование существующих складов "майнеров". Переделка игровых GPU. Поставки через нейтральные страны.',
-      r3Title: 'Потеря Связи ("Чебурнет")',
-      r3Prob: 'Низкая',
-      r3Imp: 'Высокая',
-      r3Mit: 'Готовность к изоляции (внутренние каналы ТТК). Радио-mesh для критических сигналов управления.',
+      title: 'Матрица Рисков',
+      desc: 'Комплексный анализ угроз и стратегий митигации (Фреймворк 2x2).',
       mitStrat: 'СТРАТЕГИЯ ЗАЩИТЫ',
       whyTitle: 'Инвестиционный Тезис',
-      w1Title: 'Юнит-экономика',
-      w1Desc: 'Мы тратим $0.02 там, где конкуренты тратят $0.15. Мы выигрываем маржой.',
-      w2Title: 'Спрос',
-      w2Desc: 'Колоссальный спрос на ИИ без цензуры и с гарантией приватности.',
-      w3Title: 'Дистрибуция',
-      w3Desc: 'Мгновенный доступ к 900 млн пользователей через Telegram.'
+      w1Title: 'Маржа',
+      w1Desc: 'Арбитраж между дешевой энергией Сибири и мировым спросом на ИИ.',
+      w2Title: 'Тайминг',
+      w2Desc: 'Вход в рынок именно тогда, когда централизованный ИИ уперся в "Стену Данных".',
+      w3Title: 'Защита',
+      w3Desc: 'Рыночный "ров", основанный на физическом железе, который нельзя скопировать.',
+      matrix: {
+         op: 'Операционные',
+         tech: 'Технические',
+         fin: 'Финансовые',
+         reg: 'Регуляторные',
+         prob: 'Вероят.',
+         imp: 'Влияние'
+      },
+      r1: {
+         title: 'Эмбарго / Санкции',
+         desc: 'Невозможность закупки новых H100 из-за геополитики.',
+         mitigation: 'Диверсификация поставок через нейтральные хабы. Программа "Mining Farm Retrofit" для использования игровых RTX 4090, которые не под санкциями.'
+      },
+      r2: {
+         title: 'Состязательные Атаки',
+         desc: 'Вредоносные ноды возвращают неверные результаты для саботажа.',
+         mitigation: 'Архитектура Нулевого Доверия. Каждая задача проверяется 2-мя "Критиками". Стейк сжигается моментально при обнаружении фрода.'
+      },
+      r3: {
+         title: 'Волатильность Крипты',
+         desc: 'Падение курса токена влияет на рентабельность майнеров.',
+         mitigation: 'Система Двойного Казначейства. B2B контракты фиксируются в Stablecoins (USDT), гарантируя покрытие OpEx майнерам вне зависимости от курса ARG.'
+      },
+      r4: {
+         title: 'Регуляторная Атака (AI Safety)',
+         desc: 'Государства запрещают "Нецензурируемые" модели.',
+         mitigation: 'Полная Децентрализация. У протокола нет кнопки "Выкл". Трафик маскируется через TLS 1.3 и Mesh-маршрутизацию, неотличим от обычного веба.'
+      }
     }
   }
 };
