@@ -73,7 +73,7 @@ export const translations = {
     ecosystem: {
       title: 'Ecosystem & Research',
       desc: 'Value proposition for all market participants and the scientific foundation of the protocol.',
-      partTitle: 'Protocol Participants',
+      partTitle: 'Block A: Protocol Participants',
       devTitle: 'Developers & Startups',
       dev1: 'Zero-config OpenAI-compatible API.',
       dev2: 'Access to Llama-3-70B at 10% of standard cloud cost.',
@@ -89,7 +89,7 @@ export const translations = {
       resTitle: 'Research Partners',
       res1: 'Grant funding for specialized LoRA adapters.',
       res2: 'Access to global distributed training datasets.',
-      sciTitle: 'Scientific Foundation (2024-2025)',
+      sciTitle: 'Block B: Scientific Foundation',
       sciDesc: 'ARG H.I.V.E. is not just software; it is an implementation of cutting-edge research in distributed systems and collaborative AI.',
       paper1Title: 'Collaborative Intelligence in Heterogeneous Swarms',
       paper1Abst: 'Validates the "Mixture of Agents" approach, proving that 3 small models (7B) communicating via vector context can outperform one large model (GPT-4) in reasoning tasks while using 40% less energy.',
@@ -145,6 +145,22 @@ export const translations = {
       nodeTitle: 'Node Operator P&L',
       protocolTitle: 'Protocol Revenue Streams',
       protocolDesc: 'How the Foundation captures value from the ecosystem flow.',
+      tabs: {
+        economics: 'Unit Economics',
+        flow: 'Cash Flow Graph'
+      },
+      flow: {
+        client: 'Client (Fiat/Crypto)',
+        bridge: 'Payment Bridge',
+        contract: 'H.I.V.E. Smart Contract',
+        node: 'Compute Node (Miner)',
+        treasury: 'DAO Treasury',
+        step1: '1. Payment Lock',
+        step2: '2. Token Buyback',
+        step3: '3. Task Allocation',
+        step4: '4. Proof Submission',
+        step5: '5. Payout & Burn'
+      }
     },
     tokenomics: {
       title: 'Business Ecosystem',
@@ -285,7 +301,7 @@ export const translations = {
     ecosystem: {
       title: 'Экосистема и Наука',
       desc: 'Возможности для участников рынка и научное обоснование реализации протокола.',
-      partTitle: 'Участники Протокола',
+      partTitle: 'Блок А: Участники Протокола',
       devTitle: 'Разработчики (Startups)',
       dev1: 'API, совместимый с OpenAI (Zero-config).',
       dev2: 'Доступ к Llama-3-70B за 10% от цены облаков.',
@@ -301,7 +317,7 @@ export const translations = {
       resTitle: 'Научное Сообщество',
       res1: 'Гранты на обучение LoRA-адаптеров.',
       res2: 'Доступ к распределенным датасетам для обучения.',
-      sciTitle: 'Научная База (2024-2025)',
+      sciTitle: 'Блок Б: Научная База (2024-2025)',
       sciDesc: 'ARG H.I.V.E. — это не просто софт, это реализация передовых исследований в области распределенных систем и коллаборативного ИИ.',
       paper1Title: 'Коллективный интеллект в гетерогенных роях',
       paper1Abst: 'Валидация подхода "Mixture of Agents". Доказывает, что 3 малые модели (7B), общаясь через векторный контекст, превосходят одну большую модель (GPT-4) в задачах на рассуждение, потребляя на 40% меньше энергии.',
@@ -357,6 +373,22 @@ export const translations = {
       nodeTitle: 'P&L Оператора Ноды',
       protocolTitle: 'Потоки Выручки Протокола',
       protocolDesc: 'Как Фонд (Foundation) монетизирует экосистему.',
+      tabs: {
+        economics: 'Юнит-Экономика',
+        flow: 'Граф Денежных Потоков'
+      },
+      flow: {
+        client: 'Клиент (Фиат/Крипта)',
+        bridge: 'Платежный Шлюз',
+        contract: 'Смарт-контракт H.I.V.E.',
+        node: 'Вычислительный Узел',
+        treasury: 'Казначейство DAO',
+        step1: '1. Блокировка Средств',
+        step2: '2. Откуп Токена',
+        step3: '3. Аллокация Задачи',
+        step4: '4. Сдача Proof',
+        step5: '5. Выплата и Сжигание'
+      }
     },
     tokenomics: {
       title: 'Бизнес-Экосистема',
